@@ -1,0 +1,87 @@
+#background{
+    text-align: center;
+    background-image:repeating-linear-gradient(rgb(138, 43, 226),rgb(225,43,255),rgb(138,43,226));
+    background-color: blueviolet;
+}
+.roboto{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  #stock{
+    border-top-style: solid;
+    border-color: orange;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:10px ;
+  }
+  #pricetsuru{
+    border-top-style: solid;
+    border-color: orange;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:10px ;
+  }
+  #touch{
+    border-top-style: solid;
+    border-color: orange;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:10px ;
+    margin-bottom: 10px;
+  }
+  #tsurug,#tsurup,h1,#tsurupriceg,#tsurupricep{
+    margin: 21px;
+  }
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  .contact-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    
+  }
+  .contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 10px;
+  }
+  .contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+  }
+  .contact-inputs:focus{
+    border: 2px solid #ff994f;
+  }
+  .contact-inputs::placeholder{
+    color: #a9a9;
+  }
+  .contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 20px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor:pointer;
+  }

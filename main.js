@@ -1,0 +1,9 @@
+var tsurupriceG = "2,00 un"
+var tsurupriceP = "1,00 un"
+var tsurustockG = "1"
+var tsurustockP = "1"
+document.getElementById("price").innerHTML="".concat().concat("")
+document.getElementById("tsurug").innerHTML="Estoque de tsurus tamanho grande(17 cm de uma ponta á outra da asa): ".concat(tsurustockG)
+document.getElementById("tsurup").innerHTML="Estoque de tsurus tamanho pequeno(7 cm de uma ponta á outra da asa): ".concat(tsurustockP)
+document.getElementById("tsurupriceg").innerHTML="Preço de tsurus tamanho grande: R$".concat(tsurupriceG)
+document.getElementById("tsurupricep").innerHTML="Preço de tsurus tamanho pequeno: R$".concat(tsurupriceP)
