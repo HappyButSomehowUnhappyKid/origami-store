@@ -1,7 +1,7 @@
 var tsurupriceG = "2,00 un"
 var tsurupriceP = "1,00 un"
 var tsurustockG = "1"
-var tsurustockP = "1"
+var tsurustockP = "2"
 document.getElementById("price").innerHTML="".concat().concat("")
 document.getElementById("tsurug").innerHTML="Estoque de tsurus tamanho grande(17 cm de uma ponta á outra da asa): ".concat(tsurustockG)
 document.getElementById("tsurup").innerHTML="Estoque de tsurus tamanho pequeno(7 cm de uma ponta á outra da asa): ".concat(tsurustockP)
